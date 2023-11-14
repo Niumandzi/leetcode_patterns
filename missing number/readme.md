@@ -1,1 +1,1 @@
-[task](https://leetcode.com/problems/contains-duplicate/description)
+[task](https://leetcode.com/problems/missing-number/description/)
