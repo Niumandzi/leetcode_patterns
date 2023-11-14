@@ -8,3 +8,12 @@ func missingNumber(nums []int) int {
 
     return sum
 }
+
+func missingNumberSecond(nums []int) int {
+    ans := 0
+    for i,n := range nums {
+        ans ^= (i+1)
+        ans ^= n
+    }
+    return ans
+}
